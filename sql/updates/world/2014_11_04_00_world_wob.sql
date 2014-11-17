@@ -1,2 +1,0 @@
---Fix NPC only visible for GM on quest A Tale of Valor
-UPDATE `spell_area` SET `quest_start_status` = 74 WHERE `spell_area`.`spell` =57745 AND `spell_area`.`area` =4591 AND `spell_area`.`quest_start` =13068 AND `spell_area`.`aura_spell` =0 AND `spell_area`.`racemask` =0 AND `spell_area`.`gender` =2;
